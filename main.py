@@ -9,6 +9,8 @@ from IPython.display import HTML
 def arctan(y, x):
     if x < 0:
         return np.pi + np.arctan(y / x)
+    elif x == 0:
+        return 0
     else:
         if y < 0:
             return 2 * np.pi + np.arctan(y / x)
@@ -195,9 +197,9 @@ class Particles:
                     self.velocities[j] = v2___
 
 
-T = 10
-k = 1.38
-m = 1
+T = 80      # K
+k = 1.38 * 10**(-23)        # J/K
+m = 50 * 10**(-24)      # g
 
 box = Box()
 particles = Particles()
@@ -208,6 +210,6 @@ box.scatter = box.ax.scatter(particles.positions[:, 0],
                              particles.positions[:, 2], color='red', s=20)
 
 anim = FuncAnimation(box.fig, box.animate, frames=200, interval=5)
-HTML(anim.to_jshtml())  # Display the animation using HTML object
+HTML(anim.to_jshtml())
 
 plt.show()
