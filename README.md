@@ -1,7 +1,7 @@
 ## **Content**
 1. [Program description](#program-description)
 2. [Ideal Gas Model](#ideal-gas-model)
-    * [Physical Chemistry Introduction](#physical-chemistry-introduction)
+    * [Physical chemistry definition](#physical-chemistry-definition)
     * [Particles speeds](#particles-speeds)
     * [Elastic collisions](#elastic-collisions)
 3. [How the program works](#how-the-program-works)
