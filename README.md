@@ -2,7 +2,7 @@
 1. [Program description](#program-description)
 2. [Ideal Gas Model](#ideal-gas-model)
     * [Physical Chemistry Introduction](#physical-chemistry-introduction)
-    * [Particles velocities](#particles-velocities)
+    * [Particles speeds](#particles-speeds)
     * [Elastic collisions](#elastic-collisions)
 3. [How the program works](#how-the-program-works)
     * [Class *Box*](#class-box)
